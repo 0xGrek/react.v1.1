@@ -1,17 +1,17 @@
-import "./CryptoNumber.css";
+// import "./CryptoNumber.css";
 
-function CryptoNumber(props) {
-    const title = props.date.toLocaleString("en-US", { month: "long" });
-    const course = props.date.toLocaleString(`en-US`, { day: `2-digit` });
-    const wallet = props.date.getFullYear();
+// function CryptoNumber(props) {
+//     const title = props.date.toLocaleString("en-US", { month: "long" });
+//     const day = props.date.toLocaleString(`en-US`, { day: `2-digit` });
+//     const year = props.date.getFullYear();
 
-    return (
-        <div className="expense-date">
-            <div className="expense-date__month">{title}</div>
-            <div className="expanse-date__yaer">{course}</div>
-            <div className="expanse-date__day">{wallet}</div>
-        </div>
-    );
-}
+//     return (
+//         <div className="expense-date">
+//             <div className="expense-date__month">{title}</div>
+//             <div className="expanse-date__yaer">{day}</div>
+//             <div className="expanse-date__day">{year}</div>
+//         </div>
+//     );
+// }
 
-export default CryptoNumber;
+// export default CryptoNumber;
